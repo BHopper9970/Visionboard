@@ -613,6 +613,14 @@
     [
       "600da949-f681-489f-915b-075a1ebe377b",
       "Root"
+    ],
+    [
+      "24872095-681f-4aef-afe0-33cd5e3bdeff",
+      "MicroSD Card"
+    ],
+    [
+      "898311d8-f6a1-4ab5-b4dc-9a7e2e7d3694",
+      "RJ45"
     ]
   ],
   "text_variables": {}
