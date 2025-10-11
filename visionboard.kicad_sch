@@ -14511,7 +14511,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "24872095-681f-4aef-afe0-33cd5e3bdeff")
-		(property "Sheetname" "MicroSD Card"
+		(property "Sheetname" "USB2"
 			(at 0 304.0884 0)
 			(effects
 				(font
@@ -14520,7 +14520,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MicroSD.kicad_sch"
+		(property "Sheetfile" "USB2.kicad_sch"
 			(at 0 337.1346 0)
 			(effects
 				(font
