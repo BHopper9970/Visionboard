@@ -5585,6 +5585,34 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 44.45 160.02)
+		(uuid "3dd8646e-b955-467c-bea1-3bb0e01a6748")
+	)
+	(no_connect
+		(at 44.45 91.44)
+		(uuid "40d19989-222d-4568-add5-0eb3659e450d")
+	)
+	(no_connect
+		(at 44.45 157.48)
+		(uuid "572a3cb0-60e3-4198-b034-0a60ddea3567")
+	)
+	(no_connect
+		(at 44.45 88.9)
+		(uuid "5e2f0714-6374-46bf-927e-0a5f6a652821")
+	)
+	(no_connect
+		(at 44.45 154.94)
+		(uuid "7f580499-8d99-4c2e-94f5-dc56cc02d97c")
+	)
+	(no_connect
+		(at 44.45 165.1)
+		(uuid "c34ae8f5-cb2d-45a9-831d-60b9ce38a686")
+	)
+	(no_connect
+		(at 44.45 167.64)
+		(uuid "c3c2ec4b-8fc9-4f23-aaed-0527a7de0a57")
+	)
 	(global_label "GND"
 		(shape input)
 		(at 44.45 193.04 180)
@@ -5925,26 +5953,6 @@
 			)
 		)
 	)
-	(global_label "SD_DAT4"
-		(shape input)
-		(at 44.45 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0a1b9390-5688-4477-aaa4-b8d52613a6c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB3_HOST1_SSRXN"
 		(shape input)
 		(at 364.49 143.51 0)
@@ -6037,26 +6045,6 @@
 		(uuid "0cfb261c-686a-4a8e-aaf9-8aafd652e418")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 364.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_DAT5"
-		(shape input)
-		(at 44.45 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0da5906c-3777-4ebb-b76b-98ca7e6efe2b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8945,26 +8933,6 @@
 			)
 		)
 	)
-	(global_label "Reserved"
-		(shape input)
-		(at 44.45 165.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "84bf1603-2531-4bef-b22e-dcc7fd377474")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAM1_C_N"
 		(shape input)
 		(at 226.06 104.14 0)
@@ -8997,26 +8965,6 @@
 		(uuid "883f60dc-0ee4-4d79-933f-4a52b460e7f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.45 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Ethernet_SYNC_OUT(1.8v)"
-		(shape input)
-		(at 44.45 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "89cf0c52-419f-477f-b720-9b23f4653cae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9277,26 +9225,6 @@
 		(uuid "96a19a4a-b461-4bca-8c7f-7d5869c7b225")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.41 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_DAT7"
-		(shape input)
-		(at 44.45 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9741926a-6f8e-40ae-be59-341a8eb8c8e7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9977,26 +9905,6 @@
 		(uuid "b09e13b0-8c4a-42b8-a3ab-97ec92c3970a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 226.06 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_DAT6"
-		(shape input)
-		(at 44.45 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b2eae18d-7b9c-4427-9a62-61caf1578c1d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10805,26 +10713,6 @@
 			)
 		)
 	)
-	(global_label "Ethernet_SYNC_IN(1.8v)"
-		(shape input)
-		(at 44.45 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "da3c9c22-beff-41e8-b2c7-145c0e8fe2d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HDMI0_HOTPLUG"
 		(shape input)
 		(at 226.06 137.16 0)
@@ -11205,26 +11093,6 @@
 			)
 		)
 	)
-	(global_label "GPIO_VREF(1.8v/3.3v_Input)"
-		(shape input)
-		(at 44.45 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ec6b7c46-65c6-4d9f-be7b-5a9cbd81ad3d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HDMI1_CLK_N"
 		(shape output)
 		(at 165.1 152.4 180)
@@ -11365,7 +11233,7 @@
 			)
 		)
 	)
-	(global_label "GPIO19"
+	(global_label "USBRST"
 		(shape input)
 		(at 44.45 101.6 180)
 		(effects
@@ -14538,7 +14406,7 @@
 		)
 	)
 	(sheet
-		(at 69.85 304.8)
+		(at 134.62 304.8)
 		(size 58.42 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14554,7 +14422,7 @@
 		)
 		(uuid "898311d8-f6a1-4ab5-b4dc-9a7e2e7d3694")
 		(property "Sheetname" "RJ45"
-			(at 69.85 304.0884 0)
+			(at 134.62 304.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14563,7 +14431,7 @@
 			)
 		)
 		(property "Sheetfile" "RJ45.kicad_sch"
-			(at 69.85 337.1346 0)
+			(at 134.62 337.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14575,6 +14443,48 @@
 			(project "visionboard"
 				(path "/600da949-f681-489f-915b-075a1ebe377b"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 304.8)
+		(size 64.77 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f20b1b5c-052b-4ece-8190-313324529590")
+		(property "Sheetname" "USB3"
+			(at 67.31 304.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB3/USB3.kicad_sch"
+			(at 67.31 337.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "visionboard"
+				(path "/600da949-f681-489f-915b-075a1ebe377b"
+					(page "4")
 				)
 			)
 		)

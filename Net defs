@@ -1,3 +1,4 @@
 VCC_1V8_S0 = +1.8V
 VCC_3V3_S3 = +3.3V
-VCC_3V3_S0 = switched 1.8v - see usb hub schematic
+VCC_3V3_S0 = switched 3.3v - see usb hub schematic
+GPIO_1V8 = Camera GPIO

@@ -1,0 +1,2464 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6a329139-2c1d-42c7-b370-847099f45728")
+	(paper "A4")
+	(lib_symbols
+		(symbol "2025-10-11_06-29-10:TUSB8020BIPHPRQ1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 55.88 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TUSB8020BIPHPRQ1"
+				(at 55.88 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "PHP0048E_N_TEX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tusb8020b-q1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TUSB8020BIPHPRQ1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PHP0048E_N_TEX PHP0048E_M PHP0048E_L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TUSB8020BIPHPRQ1_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -66.04)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -66.04) (xy 104.14 -66.04)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 104.14 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 104.14 -66.04) (xy 104.14 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "SCL_SMBCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "SDA_SMBDAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "PWRCTL1_BATEN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "OVERCUR1_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "PWRCTL2_BATEN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "OVERCUR2_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "USB_VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "TEST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -25.4 0)
+					(length 7.62)
+					(name "GRST_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 0)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -30.48 0)
+					(length 7.62)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -33.02 0)
+					(length 7.62)
+					(name "USB_DP_DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -35.56 0)
+					(length 7.62)
+					(name "USB_DM_DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -38.1 0)
+					(length 7.62)
+					(name "USB_SSTXP_DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -40.64 0)
+					(length 7.62)
+					(name "USB_SSTXM_DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -43.18 0)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -45.72 0)
+					(length 7.62)
+					(name "USB_SSRXP_DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -48.26 0)
+					(length 7.62)
+					(name "USB_SSRXM_DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -50.8 0)
+					(length 7.62)
+					(name "PWRCTL_POL_SS_DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -53.34 0)
+					(length 7.62)
+					(name "SMBUS_SS_DN2_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -55.88 0)
+					(length 7.62)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -58.42 0)
+					(length 7.62)
+					(name "USB_R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 111.76 0 180)
+					(length 7.62)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 111.76 -2.54 180)
+					(length 7.62)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 111.76 -5.08 180)
+					(length 7.62)
+					(name "USB_SSRXM_DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 111.76 -7.62 180)
+					(length 7.62)
+					(name "USB_SSRXP_DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 111.76 -10.16 180)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 111.76 -12.7 180)
+					(length 7.62)
+					(name "USB_SSTXM_DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 111.76 -15.24 180)
+					(length 7.62)
+					(name "USB_SSTXP_DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 111.76 -17.78 180)
+					(length 7.62)
+					(name "USB_DM_DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 111.76 -20.32 180)
+					(length 7.62)
+					(name "USB_DP_DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 111.76 -22.86 180)
+					(length 7.62)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 111.76 -25.4 180)
+					(length 7.62)
+					(name "XO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 111.76 -27.94 180)
+					(length 7.62)
+					(name "XI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 111.76 -30.48 180)
+					(length 7.62)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 111.76 -33.02 180)
+					(length 7.62)
+					(name "FULLPWRMGMT_SMBA1_SS_UP_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 111.76 -35.56 180)
+					(length 7.62)
+					(name "GANGED_SMBA2_HS_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 111.76 -38.1 180)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 111.76 -40.64 180)
+					(length 7.62)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 111.76 -43.18 180)
+					(length 7.62)
+					(name "USB_SSRXP_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 111.76 -45.72 180)
+					(length 7.62)
+					(name "USB_SSRXM_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 111.76 -48.26 180)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 111.76 -50.8 180)
+					(length 7.62)
+					(name "USB_SSTXP_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 111.76 -53.34 180)
+					(length 7.62)
+					(name "USB_SSTXM_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 111.76 -55.88 180)
+					(length 7.62)
+					(name "USB_DM_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 111.76 -58.42 180)
+					(length 7.62)
+					(name "USB_DP_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 111.76 -60.96 180)
+					(length 7.62)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 201.93 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "087cd269-d6f0-431f-acd3-d78d713f5c6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SMBUS_SS_DN2_N"
+		(shape input)
+		(at 90.17 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "158e74da-fdc5-482b-ba3c-bf9b783141c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL_SMBCLK"
+		(shape bidirectional)
+		(at 90.17 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "162e586c-3988-48ae-af1b-db7e14a1dfcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD33"
+		(shape input)
+		(at 201.93 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "181d0bb9-b1ef-4a85-bc84-6e3d9c4290aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_SSTXP_UP"
+		(shape output)
+		(at 201.93 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19f3d036-e5b9-4ba1-87ab-c207d93aa1fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 201.93 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ce5b18a-7f7b-4c0c-bd46-04824f6d7072")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 201.93 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d9acf35-c70d-4773-b397-6a9a03154803")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FULLPWRMGMT_SMBA1_SS_UP_N"
+		(shape input)
+		(at 201.93 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20cca3fc-ba81-49ab-8eb3-0b0a1484e252")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DP_UP"
+		(shape bidirectional)
+		(at 201.93 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2712703d-831d-40c5-bf71-1a9b01fbf806")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD33"
+		(shape input)
+		(at 201.93 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29cd2b3a-a357-46fc-ae0e-539d1ed300a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_SSTXM_UP"
+		(shape output)
+		(at 201.93 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cbeeeee-9c10-41e9-963b-9799ed5506c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_SSRXM_UP"
+		(shape input)
+		(at 201.93 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "390065dc-ec37-4bc0-933e-9a857a8f9745")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWRCTL2_BATEN2"
+		(shape bidirectional)
+		(at 90.17 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41cf2285-ebc4-4dc4-9eb2-addc1c18f8f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_SSTXM_DN2"
+		(shape output)
+		(at 90.17 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42d0ae12-655d-4e2c-a5dd-8eac5bc4be3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_SSRXM_DN2"
+		(shape input)
+		(at 90.17 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fa39726-0b83-4363-b167-c6dfd12b2f0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "XI"
+		(shape passive)
+		(at 201.93 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "513c5546-3302-4ad4-b1a7-58d0676ed658")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OVERCUR2_N"
+		(shape input)
+		(at 90.17 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52466a28-3082-4385-8403-c168aa7b0c32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DM_UP"
+		(shape bidirectional)
+		(at 201.93 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c46c479-0bf1-4419-878b-8bdbf4487fea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_SMBDAT"
+		(shape bidirectional)
+		(at 90.17 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ddb5cfc-bed4-4e89-bb1b-7bf2606c2f95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_VBUS"
+		(shape input)
+		(at 90.17 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "644cd167-a2c9-4975-a713-95ebfd7bff06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_R1"
+		(shape passive)
+		(at 90.17 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69b8d7d9-ade8-47ac-9eb4-3e6dbdc402f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_SSTXP_DN1"
+		(shape output)
+		(at 201.93 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a1fde07-af9a-4b2d-9baa-dac15ed13db5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 90.17 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a9ad690-80e2-4d45-be06-57010d63429f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD33"
+		(shape input)
+		(at 201.93 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ccd7bee-ec5b-4783-b45f-2adc19174cbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OVERCUR1_N"
+		(shape input)
+		(at 90.17 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80aabd69-78e3-48a9-9b5d-fd1be8973fa8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DP_DN2"
+		(shape bidirectional)
+		(at 90.17 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83877b91-5897-4152-9047-5fd68639be6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GANGED_SMBA2_HS_UP"
+		(shape input)
+		(at 201.93 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "843ade0a-b09a-4241-ad63-6cfeff10ee0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 90.17 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87d65c8d-d291-4f66-8312-220ea714d600")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWRCTL1_BATEN1"
+		(shape bidirectional)
+		(at 90.17 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89f20278-a6b7-4a49-a3d0-5d4da1501441")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DM_DN2"
+		(shape bidirectional)
+		(at 90.17 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b413bdd-18ed-4f01-9d9e-4d487bc2778b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_SSRXP_UP"
+		(shape input)
+		(at 201.93 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e352a06-50fb-40fa-830a-2255f9728300")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_SSTXM_DN1"
+		(shape output)
+		(at 201.93 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "907648aa-f308-432b-94f5-f273c2837e5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_SSTXP_DN2"
+		(shape output)
+		(at 90.17 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "921b171e-0d42-4e17-ba1d-2f1039bb5083")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GRST_N"
+		(shape input)
+		(at 90.17 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b4b83c1-0324-412f-b97a-beae827491f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_SSRXM_DN1"
+		(shape input)
+		(at 201.93 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c332c66-e255-4f07-9527-2e01e88d0ee2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TEST"
+		(shape input)
+		(at 90.17 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a548ca34-4bdd-4f94-8fcb-2bc8fbf7903e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PAD"
+		(shape passive)
+		(at 201.93 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8805971-365f-45df-b729-2a551bd8a4d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWRCTL_POL_SS_DN1"
+		(shape bidirectional)
+		(at 90.17 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae957ef8-7093-4ed2-bd24-66d924ba2429")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "XO"
+		(shape passive)
+		(at 201.93 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0c4b3af-27b7-4cde-a398-8cd177995c99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD33"
+		(shape input)
+		(at 90.17 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b55e35b7-4b29-4106-a3e7-73d38e2eeb80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD33"
+		(shape input)
+		(at 90.17 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf605c9a-02a8-451e-a759-70ef3dcbffda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_SSRXP_DN1"
+		(shape input)
+		(at 201.93 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca16076c-8e25-4219-b5d6-b3068299a3c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD33"
+		(shape input)
+		(at 201.93 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cce90571-283f-417d-987f-9b2d13af44f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_SSRXP_DN2"
+		(shape input)
+		(at 90.17 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd0ae634-41cc-422c-aeb8-6762923e99c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 90.17 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf1f951e-b252-4399-a141-721acf441e46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DP_DN1"
+		(shape bidirectional)
+		(at 201.93 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e393de3e-8fdf-4524-ba4b-20f1ddb976cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD33"
+		(shape input)
+		(at 201.93 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef0bd1b1-a9ac-4fef-b8d7-32531d32752f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DM_DN1"
+		(shape bidirectional)
+		(at 201.93 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0b5fa45-bb4c-4395-9733-3557dc7af27c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD33"
+		(shape input)
+		(at 90.17 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5c57dcc-805d-4b22-8aee-04f4652f837b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-10-11_06-29-10:TUSB8020BIPHPRQ1")
+		(at 90.17 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6721a69b-851f-4f31-862c-73f2319d814c")
+		(property "Reference" "U8"
+			(at 146.05 16.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TUSB8020BIPHPRQ1"
+			(at 146.05 19.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "PHP0048E_N_TEX"
+			(at 90.17 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tusb8020b-q1"
+			(at 90.17 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "39"
+			(uuid "85aa3302-ff2c-4750-978a-9e47ee21b8f3")
+		)
+		(pin "25"
+			(uuid "2c831cd8-61d6-41e8-89ef-11fb9570daef")
+		)
+		(pin "33"
+			(uuid "8bfb4d46-f93f-4333-a80c-fd959f219c03")
+		)
+		(pin "12"
+			(uuid "3ff7a8be-54b2-45cb-8502-ab93d06c8591")
+		)
+		(pin "19"
+			(uuid "d317cb67-6f55-4abc-8d8c-da0ad14b4575")
+		)
+		(pin "8"
+			(uuid "71d8b15f-db7b-489d-a526-242f82d50d49")
+		)
+		(pin "15"
+			(uuid "d1a969bb-e6f0-472e-b52f-52ee074831a2")
+		)
+		(pin "13"
+			(uuid "df1629e9-40d8-4e1f-9925-0d74cbceefb0")
+		)
+		(pin "14"
+			(uuid "27fcfc9d-09d5-498a-99d3-39b9bc8bdb6b")
+		)
+		(pin "10"
+			(uuid "e52099f0-d465-463f-8a94-3ccb21ffe03e")
+		)
+		(pin "3"
+			(uuid "9585aab6-4dd1-457f-b46c-ec1abf95cf25")
+		)
+		(pin "11"
+			(uuid "e009d415-3c68-4f9d-9b50-f0f980355089")
+		)
+		(pin "43"
+			(uuid "cac69a4e-4f9c-49ca-9531-abf61593da0a")
+		)
+		(pin "22"
+			(uuid "ec95bcd5-d48b-4538-837c-1137d94ef6ac")
+		)
+		(pin "24"
+			(uuid "dc6feac8-c538-4f61-9082-4520c7d63c28")
+		)
+		(pin "29"
+			(uuid "9a016c8b-0668-402e-8ab7-8da7a542bed7")
+		)
+		(pin "36"
+			(uuid "d1fb5ad9-d107-49f5-8648-0f7b066c6bc8")
+		)
+		(pin "30"
+			(uuid "ac6f6b71-e9fe-4a09-b04c-df72677d2101")
+		)
+		(pin "47"
+			(uuid "da414b3b-7d03-4fca-9f87-92becc86d4ef")
+		)
+		(pin "42"
+			(uuid "3c490a99-0bb8-41cd-83e3-3913faa28ef7")
+		)
+		(pin "34"
+			(uuid "e6062311-fee0-47b2-9de7-390131d864cb")
+		)
+		(pin "21"
+			(uuid "bb878bf4-8a85-4e45-94ee-bce825519036")
+		)
+		(pin "37"
+			(uuid "de4e74b1-59bd-4a61-92ed-d7234ab544e8")
+		)
+		(pin "31"
+			(uuid "8c14ecae-0dac-4846-abeb-8aaf0c1286d5")
+		)
+		(pin "48"
+			(uuid "989eb245-dc19-45b4-9ce4-c28d89bc92e1")
+		)
+		(pin "35"
+			(uuid "a2b25319-798c-42e5-8b48-71fa3956a8e4")
+		)
+		(pin "49"
+			(uuid "f972ac5f-a061-4e2a-b277-f3efb3cacba6")
+		)
+		(pin "17"
+			(uuid "018e06b4-3ae7-4dea-8870-280f1bbe1a9a")
+		)
+		(pin "38"
+			(uuid "f54c62fa-3491-4441-a4dd-c7ef1ec8a939")
+		)
+		(pin "28"
+			(uuid "7059314f-9767-498a-88cf-16c8e094eca4")
+		)
+		(pin "46"
+			(uuid "7ebc4203-a5f2-4194-9f3d-0fdc9bc7d9e0")
+		)
+		(pin "26"
+			(uuid "a685d0f3-2703-42ef-863a-2417bc696742")
+		)
+		(pin "2"
+			(uuid "52813afa-f9d2-4a73-81a0-3074b33c3b12")
+		)
+		(pin "1"
+			(uuid "cb0df93f-cde5-4ef6-8100-89afbd786f53")
+		)
+		(pin "16"
+			(uuid "a717448b-4421-4b7f-a663-13150201f47a")
+		)
+		(pin "20"
+			(uuid "f557a63a-12c6-4cbd-bc00-7816d1b773c0")
+		)
+		(pin "7"
+			(uuid "5f9c5e26-716a-487c-aae8-ebf93bd47dca")
+		)
+		(pin "27"
+			(uuid "e0136ed5-a589-4f8a-821a-e0fd16a441ad")
+		)
+		(pin "41"
+			(uuid "2358c02a-6cbd-4a5a-bb0e-0713be1affd8")
+		)
+		(pin "40"
+			(uuid "e9fa7200-78f2-47ce-9f82-cff814403a97")
+		)
+		(pin "44"
+			(uuid "5ef7e615-e6ff-4a03-81ce-00e8d6dcc5cf")
+		)
+		(pin "32"
+			(uuid "237e7652-1520-467d-92ae-d5fcf3975b9e")
+		)
+		(pin "9"
+			(uuid "eb058147-965c-49fe-8ce5-bc536f7e684d")
+		)
+		(pin "6"
+			(uuid "b3361e7c-7ea3-4106-ac5c-b7ccb61e0e22")
+		)
+		(pin "5"
+			(uuid "0455ee65-1d72-48f8-8356-f3cef383f03e")
+		)
+		(pin "4"
+			(uuid "388b6ab3-0825-4cd3-9abe-eda520f96446")
+		)
+		(pin "18"
+			(uuid "aba4f79e-3adb-4b02-9ed6-c33788cd6474")
+		)
+		(pin "23"
+			(uuid "acf4d1aa-b1d8-4d45-96dc-70e708c87330")
+		)
+		(pin "45"
+			(uuid "8d475766-da52-4e34-899c-119e8376f552")
+		)
+		(instances
+			(project "visionboard"
+				(path "/600da949-f681-489f-915b-075a1ebe377b/f20b1b5c-052b-4ece-8190-313324529590"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 101.6)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "027ec588-78d1-43d1-8a27-d4e2398723e0")
+		(property "Sheetname" "USB3pwr"
+			(at 167.64 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB3/USB3pwr.kicad_sch"
+			(at 167.64 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "visionboard"
+				(path "/600da949-f681-489f-915b-075a1ebe377b/f20b1b5c-052b-4ece-8190-313324529590"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 101.6)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38c4e471-e8d8-4a06-9b09-8eecc9b6d190")
+		(property "Sheetname" "USB3down2"
+			(at 83.82 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB3/USB3down2.kicad_sch"
+			(at 83.82 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "visionboard"
+				(path "/600da949-f681-489f-915b-075a1ebe377b/f20b1b5c-052b-4ece-8190-313324529590"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 101.6)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "60960194-670d-45a2-8273-b5e8919792b9")
+		(property "Sheetname" "USB3clk"
+			(at 139.7 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB3/USB3clk.kicad_sch"
+			(at 139.7 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "visionboard"
+				(path "/600da949-f681-489f-915b-075a1ebe377b/f20b1b5c-052b-4ece-8190-313324529590"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 101.6)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b75d6e24-ef96-4117-bb4d-300c2d0ba9ce")
+		(property "Sheetname" "USB3down1"
+			(at 55.88 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB3/USB3down1.kicad_sch"
+			(at 55.88 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "visionboard"
+				(path "/600da949-f681-489f-915b-075a1ebe377b/f20b1b5c-052b-4ece-8190-313324529590"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 101.6)
+		(size 26.67 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8f6ff93-8254-477a-8cbd-4a45901a01e5")
+		(property "Sheetname" "USB3up"
+			(at 26.67 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB3/USB3up.kicad_sch"
+			(at 26.67 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "visionboard"
+				(path "/600da949-f681-489f-915b-075a1ebe377b/f20b1b5c-052b-4ece-8190-313324529590"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 101.6)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e9463b1b-ea92-4ee3-907f-187bf7e68a4e")
+		(property "Sheetname" "USB3sw"
+			(at 111.76 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB3/USB3sw.kicad_sch"
+			(at 111.76 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "visionboard"
+				(path "/600da949-f681-489f-915b-075a1ebe377b/f20b1b5c-052b-4ece-8190-313324529590"
+					(page "8")
+				)
+			)
+		)
+	)
+)
