@@ -2234,7 +2234,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB3/USB3pwr.kicad_sch"
+		(property "Sheetfile" "USB3pwr.kicad_sch"
 			(at 167.64 117.4246 0)
 			(effects
 				(font
@@ -2276,7 +2276,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB3/USB3down2.kicad_sch"
+		(property "Sheetfile" "USB3down2.kicad_sch"
 			(at 83.82 117.4246 0)
 			(effects
 				(font
@@ -2318,7 +2318,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB3/USB3clk.kicad_sch"
+		(property "Sheetfile" "USB3clk.kicad_sch"
 			(at 139.7 117.4246 0)
 			(effects
 				(font
@@ -2360,7 +2360,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB3/USB3down1.kicad_sch"
+		(property "Sheetfile" "USB3down1.kicad_sch"
 			(at 55.88 117.4246 0)
 			(effects
 				(font
@@ -2402,7 +2402,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB3/USB3up.kicad_sch"
+		(property "Sheetfile" "USB3up.kicad_sch"
 			(at 26.67 117.4246 0)
 			(effects
 				(font
@@ -2444,7 +2444,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB3/USB3sw.kicad_sch"
+		(property "Sheetfile" "USB3sw.kicad_sch"
 			(at 111.76 117.4246 0)
 			(effects
 				(font
