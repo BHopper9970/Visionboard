@@ -14448,6 +14448,48 @@
 		)
 	)
 	(sheet
+		(at 195.58 304.8)
+		(size 54.61 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "92081cf3-b4d8-4e50-ad18-bd35a80efac4")
+		(property "Sheetname" "DCPOWER"
+			(at 195.58 304.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DCPOWER.kicad_sch"
+			(at 195.58 337.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "visionboard"
+				(path "/600da949-f681-489f-915b-075a1ebe377b"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 67.31 304.8)
 		(size 64.77 31.75)
 		(exclude_from_sim no)

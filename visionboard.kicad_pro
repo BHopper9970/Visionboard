@@ -649,6 +649,10 @@
     [
       "027ec588-78d1-43d1-8a27-d4e2398723e0",
       "USB3pwr"
+    ],
+    [
+      "92081cf3-b4d8-4e50-ad18-bd35a80efac4",
+      "DCPOWER"
     ]
   ],
   "text_variables": {}
