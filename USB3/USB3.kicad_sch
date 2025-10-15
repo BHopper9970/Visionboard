@@ -2232,7 +2232,7 @@
 		)
 	)
 	(sheet
-		(at 251.46 142.24)
+		(at 27.94 16.51)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2248,7 +2248,7 @@
 		)
 		(uuid "027ec588-78d1-43d1-8a27-d4e2398723e0")
 		(property "Sheetname" "USB3pwr"
-			(at 251.46 141.5284 0)
+			(at 27.94 15.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2257,7 @@
 			)
 		)
 		(property "Sheetfile" "USB3pwr.kicad_sch"
-			(at 251.46 158.0646 0)
+			(at 27.94 32.3346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2274,7 @@
 		)
 	)
 	(sheet
-		(at 167.64 142.24)
+		(at 204.47 91.44)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2290,7 +2290,7 @@
 		)
 		(uuid "38c4e471-e8d8-4a06-9b09-8eecc9b6d190")
 		(property "Sheetname" "USB3down34"
-			(at 167.64 141.5284 0)
+			(at 204.47 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +2299,7 @@
 			)
 		)
 		(property "Sheetfile" "USB3down34.kicad_sch"
-			(at 167.64 158.0646 0)
+			(at 204.47 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +2316,7 @@
 		)
 	)
 	(sheet
-		(at 223.52 142.24)
+		(at 67.31 33.02)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2332,7 +2332,7 @@
 		)
 		(uuid "60960194-670d-45a2-8273-b5e8919792b9")
 		(property "Sheetname" "USB3clk"
-			(at 223.52 141.5284 0)
+			(at 67.31 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,7 +2341,7 @@
 			)
 		)
 		(property "Sheetfile" "USB3clk.kicad_sch"
-			(at 223.52 158.0646 0)
+			(at 67.31 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +2358,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 142.24)
+		(at 204.47 43.18)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2374,7 +2374,7 @@
 		)
 		(uuid "b75d6e24-ef96-4117-bb4d-300c2d0ba9ce")
 		(property "Sheetname" "USB3down12"
-			(at 139.7 141.5284 0)
+			(at 204.47 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +2383,7 @@
 			)
 		)
 		(property "Sheetfile" "USB3down12.kicad_sch"
-			(at 139.7 158.0646 0)
+			(at 204.47 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +2400,7 @@
 		)
 	)
 	(sheet
-		(at 110.49 142.24)
+		(at 66.04 58.42)
 		(size 26.67 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2416,7 +2416,7 @@
 		)
 		(uuid "b8f6ff93-8254-477a-8cbd-4a45901a01e5")
 		(property "Sheetname" "USB3up"
-			(at 110.49 141.5284 0)
+			(at 66.04 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2425,7 @@
 			)
 		)
 		(property "Sheetfile" "USB3up.kicad_sch"
-			(at 110.49 158.0646 0)
+			(at 66.04 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,7 +2442,7 @@
 		)
 	)
 	(sheet
-		(at 195.58 142.24)
+		(at 134.62 143.51)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2458,7 +2458,7 @@
 		)
 		(uuid "e9463b1b-ea92-4ee3-907f-187bf7e68a4e")
 		(property "Sheetname" "USB3sw"
-			(at 195.58 141.5284 0)
+			(at 134.62 142.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2467,7 +2467,7 @@
 			)
 		)
 		(property "Sheetfile" "USB3sw.kicad_sch"
-			(at 195.58 158.0646 0)
+			(at 134.62 159.3346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
