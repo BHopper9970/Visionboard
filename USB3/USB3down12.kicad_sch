@@ -3720,16 +3720,16 @@
 		)
 		(uuid "a30a7183-f977-4e66-bd80-d53d37e9283b")
 	)
-	(hierarchical_label "DN2_VBUS"
+	(hierarchical_label "DN1_VBUS"
 		(shape input)
-		(at 86.36 111.76 180)
+		(at 137.16 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "a894f3ed-5a90-46d7-ae8c-b369a3c09e91")
+		(uuid "b5b8a3c5-dd39-42d4-a1f5-251baa1c728a")
 	)
 	(hierarchical_label "USB_DP_DN1"
 		(shape bidirectional)
@@ -3742,16 +3742,16 @@
 		)
 		(uuid "c5ce8026-3fc2-4cf0-a81c-de7f50e99c14")
 	)
-	(hierarchical_label "DN1_VBUS"
+	(hierarchical_label "DN2_VBUS"
 		(shape input)
-		(at 137.16 22.86 180)
+		(at 86.36 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "d7d28515-086c-4429-b08d-ae9993c1d3c0")
+		(uuid "c75b35fe-536d-4d0f-aa29-a746cbc3c479")
 	)
 	(hierarchical_label "USB_SSRXM_DN2"
 		(shape input)
