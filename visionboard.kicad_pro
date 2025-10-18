@@ -649,6 +649,14 @@
     [
       "92081cf3-b4d8-4e50-ad18-bd35a80efac4",
       "DCPOWER"
+    ],
+    [
+      "56485f94-9686-4a38-abf8-f8906fa5af2a",
+      "MIPICAM"
+    ],
+    [
+      "f5919125-7576-41a9-9144-dccbafd37910",
+      "USBC"
     ]
   ],
   "text_variables": {}

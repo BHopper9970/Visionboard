@@ -1,0 +1,9 @@
+Manufacturer=LINK-PP
+PartNumber=LPJG0926HENL
+PartCategory=Connector
+PackageCategory=Other
+PinCount=20
+Version=1.10
+Released=2021-10-24 08:06:12
+Downloaded=2025-10-18 06:45:52
+3D=Y

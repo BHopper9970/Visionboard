@@ -12898,6 +12898,48 @@
 		)
 	)
 	(sheet
+		(at 252.73 304.8)
+		(size 50.8 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56485f94-9686-4a38-abf8-f8906fa5af2a")
+		(property "Sheetname" "MIPICAM"
+			(at 252.73 304.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MIPICAM.kicad_sch"
+			(at 252.73 337.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "visionboard"
+				(path "/600da949-f681-489f-915b-075a1ebe377b"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 134.62 304.8)
 		(size 58.42 31.75)
 		(exclude_from_sim no)
@@ -13019,6 +13061,48 @@
 			(project "visionboard"
 				(path "/600da949-f681-489f-915b-075a1ebe377b"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 306.07 304.8)
+		(size 50.8 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f5919125-7576-41a9-9144-dccbafd37910")
+		(property "Sheetname" "USBC"
+			(at 306.07 304.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBC.kicad_sch"
+			(at 306.07 337.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "visionboard"
+				(path "/600da949-f681-489f-915b-075a1ebe377b"
+					(page "12")
 				)
 			)
 		)

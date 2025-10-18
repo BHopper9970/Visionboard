@@ -2228,7 +2228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
+		(property "Footprint" "radxa:DFN1006-2L"
 			(at 171.45 186.69 0)
 			(effects
 				(font
@@ -2991,7 +2991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
+		(property "Footprint" "radxa:DFN1006-2L"
 			(at 173.99 193.04 0)
 			(effects
 				(font
