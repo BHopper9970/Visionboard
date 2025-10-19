@@ -2478,15 +2478,15 @@
 		(fields_autoplaced yes)
 		(uuid "0301bc84-9d4f-45ea-9619-f07af5e8dbe6")
 		(property "Reference" "U5"
-			(at 55.88 69.85 0)
+			(at 55.88 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 55.88 72.39 0)
+		(property "Value" "SGM2576"
+			(at 55.88 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

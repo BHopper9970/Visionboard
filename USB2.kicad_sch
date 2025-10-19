@@ -2691,15 +2691,15 @@
 		(fields_autoplaced yes)
 		(uuid "7024c186-7880-45fa-86ea-786357471f5a")
 		(property "Reference" "U4"
-			(at 81.28 151.13 0)
+			(at 81.28 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 81.28 153.67 0)
+		(property "Value" "SGM2576"
+			(at 81.28 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5598,6 +5598,10 @@
 		(uuid "03d6db13-44a1-4071-b721-00ca501693d4")
 	)
 	(no_connect
+		(at 364.49 191.77)
+		(uuid "03ee2316-31cf-4b64-96bb-7e52f80905d9")
+	)
+	(no_connect
 		(at 165.1 180.34)
 		(uuid "05c671db-6e7f-4e0d-ae47-4cab92dab772")
 	)
@@ -5900,10 +5904,6 @@
 	(no_connect
 		(at 165.1 167.64)
 		(uuid "e478c143-68bf-4052-9937-f5b439d97566")
-	)
-	(no_connect
-		(at 165.1 76.2)
-		(uuid "f3111dbc-605d-4ce4-831a-e5c122409326")
 	)
 	(no_connect
 		(at 226.06 124.46)
@@ -7209,26 +7209,6 @@
 			)
 		)
 	)
-	(global_label "USB_OTG0_VBUSDET"
-		(shape input)
-		(at 364.49 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4d854b76-b694-4e5d-92ef-373fda6ccd7c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.49 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+5v_(Input)"
 		(shape input)
 		(at 105.41 175.26 0)
@@ -8205,6 +8185,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC5V0_SYS"
+		(shape input)
+		(at 165.1 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8525c964-cbf7-4ef8-bb9e-556576f4eea2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.5034 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
