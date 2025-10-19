@@ -5810,16 +5810,16 @@
 		(uuid "a7863efe-ebdb-468c-ba93-93921240c909")
 	)
 	(no_connect
+		(at 226.06 71.12)
+		(uuid "aa7b1c6f-67d8-4b49-9022-1e102f5e8a38")
+	)
+	(no_connect
 		(at 364.49 120.65)
 		(uuid "aa808030-0769-4a02-b09e-f043b118d800")
 	)
 	(no_connect
 		(at 165.1 91.44)
 		(uuid "ad67d959-48d6-4738-893b-b563c4e48524")
-	)
-	(no_connect
-		(at 165.1 76.2)
-		(uuid "b2825ee9-581d-462c-9269-c3eb66059c95")
 	)
 	(no_connect
 		(at 226.06 99.06)
@@ -5900,6 +5900,10 @@
 	(no_connect
 		(at 165.1 167.64)
 		(uuid "e478c143-68bf-4052-9937-f5b439d97566")
+	)
+	(no_connect
+		(at 165.1 76.2)
+		(uuid "f3111dbc-605d-4ce4-831a-e5c122409326")
 	)
 	(no_connect
 		(at 226.06 124.46)
@@ -9077,26 +9081,6 @@
 		(uuid "c92b59e8-3a5b-4ac8-9bd1-684d1faf4500")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_OTG_ID"
-		(shape input)
-		(at 226.06 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cc031300-21f1-4065-9f27-1a28e7c32ea1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.06 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

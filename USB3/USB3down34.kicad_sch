@@ -5725,7 +5725,7 @@
 				)
 			)
 		)
-		(property "Value" "MCZ1210AH900L2TD0G"
+		(property "Value" "MCZ1210DH120L2TA0G"
 			(at 45.593 123.19 0)
 			(effects
 				(font
@@ -6203,7 +6203,7 @@
 				)
 			)
 		)
-		(property "Value" "MCZ1210AH900L2TD0G"
+		(property "Value" "MCZ1210DH120L2TA0G"
 			(at 96.393 34.29 0)
 			(effects
 				(font
