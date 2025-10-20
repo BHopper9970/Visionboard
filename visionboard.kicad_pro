@@ -467,7 +467,223 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "All Nets",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MLNetGroup1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MLNetGroup10",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MLNetGroup11",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MLNetGroup2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MLNetGroup3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MLNetGroup4",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MLNetGroup5",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MLNetGroup6",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MLNetGroup7",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MLNetGroup8",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MLNetGroup9",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -480,7 +696,312 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "MLNetGroup3",
+        "pattern": "MIPI_DPHY0_TX_CLKN"
+      },
+      {
+        "netclass": "MLNetGroup3",
+        "pattern": "MIPI_DPHY0_TX_CLKP"
+      },
+      {
+        "netclass": "MLNetGroup3",
+        "pattern": "MIPI_DPHY0_TX_D0N"
+      },
+      {
+        "netclass": "MLNetGroup3",
+        "pattern": "MIPI_DPHY0_TX_D0P"
+      },
+      {
+        "netclass": "MLNetGroup3",
+        "pattern": "MIPI_DPHY0_TX_D1N"
+      },
+      {
+        "netclass": "MLNetGroup3",
+        "pattern": "MIPI_DPHY0_TX_D1P"
+      },
+      {
+        "netclass": "MLNetGroup4",
+        "pattern": "PHY1_MDI0-"
+      },
+      {
+        "netclass": "MLNetGroup4",
+        "pattern": "PHY1_MDI0+"
+      },
+      {
+        "netclass": "MLNetGroup4",
+        "pattern": "PHY1_MDI1-"
+      },
+      {
+        "netclass": "MLNetGroup4",
+        "pattern": "PHY1_MDI1+"
+      },
+      {
+        "netclass": "MLNetGroup4",
+        "pattern": "PHY1_MDI2-"
+      },
+      {
+        "netclass": "MLNetGroup4",
+        "pattern": "PHY1_MDI2+"
+      },
+      {
+        "netclass": "MLNetGroup4",
+        "pattern": "PHY1_MDI3-"
+      },
+      {
+        "netclass": "MLNetGroup4",
+        "pattern": "PHY1_MDI3+"
+      },
+      {
+        "netclass": "MLNetGroup8",
+        "pattern": "HDMI0_TX1N"
+      },
+      {
+        "netclass": "MLNetGroup8",
+        "pattern": "HDMI0_TX1P"
+      },
+      {
+        "netclass": "MLNetGroup8",
+        "pattern": "HDMI0_TX2N"
+      },
+      {
+        "netclass": "MLNetGroup8",
+        "pattern": "HDMI0_TX2P"
+      },
+      {
+        "netclass": "MLNetGroup5",
+        "pattern": "SDMMC_CLK"
+      },
+      {
+        "netclass": "MLNetGroup5",
+        "pattern": "SDMMC_CMD"
+      },
+      {
+        "netclass": "MLNetGroup5",
+        "pattern": "SDMMC_D0"
+      },
+      {
+        "netclass": "MLNetGroup5",
+        "pattern": "SDMMC_D1"
+      },
+      {
+        "netclass": "MLNetGroup5",
+        "pattern": "SDMMC_D2"
+      },
+      {
+        "netclass": "MLNetGroup5",
+        "pattern": "SDMMC_D3"
+      },
+      {
+        "netclass": "MLNetGroup2",
+        "pattern": "MIPI_DPHY0_RX_CLKN"
+      },
+      {
+        "netclass": "MLNetGroup2",
+        "pattern": "MIPI_DPHY0_RX_CLKP"
+      },
+      {
+        "netclass": "MLNetGroup2",
+        "pattern": "MIPI_DPHY0_RX_D0N"
+      },
+      {
+        "netclass": "MLNetGroup2",
+        "pattern": "MIPI_DPHY0_RX_D0P"
+      },
+      {
+        "netclass": "MLNetGroup2",
+        "pattern": "MIPI_DPHY0_RX_D1N"
+      },
+      {
+        "netclass": "MLNetGroup2",
+        "pattern": "MIPI_DPHY0_RX_D1P"
+      },
+      {
+        "netclass": "MLNetGroup2",
+        "pattern": "MIPI_DPHY0_RX_D2N"
+      },
+      {
+        "netclass": "MLNetGroup2",
+        "pattern": "MIPI_DPHY0_RX_D2P"
+      },
+      {
+        "netclass": "MLNetGroup2",
+        "pattern": "MIPI_DPHY0_RX_D3N"
+      },
+      {
+        "netclass": "MLNetGroup2",
+        "pattern": "MIPI_DPHY0_RX_D3P"
+      },
+      {
+        "netclass": "MLNetGroup10",
+        "pattern": "TYPEC_SSRX2N"
+      },
+      {
+        "netclass": "MLNetGroup10",
+        "pattern": "TYPEC_SSRX2P"
+      },
+      {
+        "netclass": "MLNetGroup10",
+        "pattern": "TYPEC_SSTX2N"
+      },
+      {
+        "netclass": "MLNetGroup10",
+        "pattern": "TYPEC_SSTX2P"
+      },
+      {
+        "netclass": "MLNetGroup10",
+        "pattern": "TYPEC0_SSRX2N"
+      },
+      {
+        "netclass": "MLNetGroup10",
+        "pattern": "TYPEC0_SSRX2P"
+      },
+      {
+        "netclass": "MLNetGroup10",
+        "pattern": "TYPEC0_SSTX2N"
+      },
+      {
+        "netclass": "MLNetGroup10",
+        "pattern": "TYPEC0_SSTX2P"
+      },
+      {
+        "netclass": "MLNetGroup6",
+        "pattern": "MIPI_DPHY1_TX_CLKN"
+      },
+      {
+        "netclass": "MLNetGroup6",
+        "pattern": "MIPI_DPHY1_TX_CLKP"
+      },
+      {
+        "netclass": "MLNetGroup6",
+        "pattern": "MIPI_DPHY1_TX_D0N"
+      },
+      {
+        "netclass": "MLNetGroup6",
+        "pattern": "MIPI_DPHY1_TX_D0P"
+      },
+      {
+        "netclass": "MLNetGroup6",
+        "pattern": "MIPI_DPHY1_TX_D1N"
+      },
+      {
+        "netclass": "MLNetGroup6",
+        "pattern": "MIPI_DPHY1_TX_D1P"
+      },
+      {
+        "netclass": "MLNetGroup6",
+        "pattern": "MIPI_DPHY1_TX_D2N"
+      },
+      {
+        "netclass": "MLNetGroup6",
+        "pattern": "MIPI_DPHY1_TX_D2P"
+      },
+      {
+        "netclass": "MLNetGroup1",
+        "pattern": "MIPI_CSI0_RX_CLK0N"
+      },
+      {
+        "netclass": "MLNetGroup1",
+        "pattern": "MIPI_CSI0_RX_CLK0P"
+      },
+      {
+        "netclass": "MLNetGroup1",
+        "pattern": "MIPI_CSI0_RX_D0N"
+      },
+      {
+        "netclass": "MLNetGroup1",
+        "pattern": "MIPI_CSI0_RX_D0P"
+      },
+      {
+        "netclass": "MLNetGroup1",
+        "pattern": "MIPI_CSI0_RX_D1N"
+      },
+      {
+        "netclass": "MLNetGroup1",
+        "pattern": "MIPI_CSI0_RX_D1P"
+      },
+      {
+        "netclass": "MLNetGroup7",
+        "pattern": "HDMI0_TX0N"
+      },
+      {
+        "netclass": "MLNetGroup7",
+        "pattern": "HDMI0_TX0P"
+      },
+      {
+        "netclass": "MLNetGroup7",
+        "pattern": "HDMI0_TX3N"
+      },
+      {
+        "netclass": "MLNetGroup7",
+        "pattern": "HDMI0_TX3P"
+      },
+      {
+        "netclass": "MLNetGroup11",
+        "pattern": "TYPEC_SSRX1N"
+      },
+      {
+        "netclass": "MLNetGroup11",
+        "pattern": "TYPEC_SSRX1P"
+      },
+      {
+        "netclass": "MLNetGroup11",
+        "pattern": "TYPEC_SSTX1N"
+      },
+      {
+        "netclass": "MLNetGroup11",
+        "pattern": "TYPEC_SSTX1P"
+      },
+      {
+        "netclass": "MLNetGroup11",
+        "pattern": "TYPEC0_SSRX1N"
+      },
+      {
+        "netclass": "MLNetGroup11",
+        "pattern": "TYPEC0_SSRX1P"
+      },
+      {
+        "netclass": "MLNetGroup11",
+        "pattern": "TYPEC0_SSTX1N"
+      },
+      {
+        "netclass": "MLNetGroup11",
+        "pattern": "TYPEC0_SSTX1P"
+      },
+      {
+        "netclass": "MLNetGroup9",
+        "pattern": "SSRX_1N"
+      },
+      {
+        "netclass": "MLNetGroup9",
+        "pattern": "SSRX_1P"
+      },
+      {
+        "netclass": "MLNetGroup9",
+        "pattern": "SSTX_1N"
+      },
+      {
+        "netclass": "MLNetGroup9",
+        "pattern": "SSTX_1P"
+      },
+      {
+        "netclass": "MLNetGroup9",
+        "pattern": "USB30_2_SSRXN"
+      },
+      {
+        "netclass": "MLNetGroup9",
+        "pattern": "USB30_2_SSRXP"
+      },
+      {
+        "netclass": "MLNetGroup9",
+        "pattern": "USB30_2_SSTXN"
+      },
+      {
+        "netclass": "MLNetGroup9",
+        "pattern": "USB30_2_SSTXP"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
