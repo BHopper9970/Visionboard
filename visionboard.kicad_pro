@@ -1178,6 +1178,10 @@
     [
       "f5919125-7576-41a9-9144-dccbafd37910",
       "USBC"
+    ],
+    [
+      "de6b1d67-f1f2-42ec-a073-94833dc2c24b",
+      "sysinfo"
     ]
   ],
   "text_variables": {}
